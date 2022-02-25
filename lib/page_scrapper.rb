@@ -15,7 +15,7 @@ class PageScrapper
   end
 
   def css(rule)
-    @full_page.css(rule)
+    page.css(rule)
   end
 
   def full_url
