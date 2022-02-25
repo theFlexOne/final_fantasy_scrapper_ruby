@@ -1,10 +1,8 @@
 require_relative "./page_scrapper.rb"
 require_relative "./constants/urls.rb"
 
-class HomePageScrapper < PageScrapper
-  ENDPOINT = ENDPOINTS[:home]
-
+class FFFandomPageScrapper < PageScrapper
   def initialize()
-    super(ENDPOINT)
+    super(BASE_URL)
   end
 end
