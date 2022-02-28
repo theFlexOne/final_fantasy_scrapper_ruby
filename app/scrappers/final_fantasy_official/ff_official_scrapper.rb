@@ -1,5 +1,4 @@
-require_relative "../../page_scrapper.rb"
-require_relative "../../../../lib/constants/urls.rb"
+require_relative "../page_scrapper"
 
 class FFOfficialScrapper < PageScrapper
   BASE_URL = SITES[:official][:base_url]

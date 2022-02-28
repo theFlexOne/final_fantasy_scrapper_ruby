@@ -1,5 +1,4 @@
-require_relative "./ff_fandom_page_scrapper.rb"
-require_relative "../../../../lib/constants/urls.rb"
+require_relative "ff_fandom_page_scrapper"
 
 class FFHomePageScrapper < FFFandomPageScrapper
   ENDPOINT = ENDPOINTS[:home]
